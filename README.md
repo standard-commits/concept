@@ -1,5 +1,7 @@
 # Standard Commits Concept
 
+> 🚧 ! THIS DOCUMENT IS **WORK IN PROGRESS** ! 🚧
+
 ## Layout
 
 The _Standard Commit_ format, as universally recognized, is composed of two distinct fragments: the _structured_ (or formal) component and the _unstructured_ (or expository) component. The former adheres to a prescribed format, ensuring clarity and consistency in commit messages. It is formally expressed as: `<verb><importance>(<scope>)[<reason>]`. The latter expands upon the structured prefix, providing deeper insight into the modification. It is consists of three elements: `<summary>`, `<body>`, and `<footer>`.
