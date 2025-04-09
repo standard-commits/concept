@@ -2,6 +2,38 @@
 
 > 🚧 ! THIS DOCUMENT IS **WORK IN PROGRESS** ! 🚧
 
+## Motivation
+
+The _Standard Commit_ format is a structured approach to writing commit messages that enhances clarity and consistency in version control systems. This format is particularly beneficial for projects with multiple contributors, as it provides a common language for describing changes. Without getting lost in too many frills, the question this section aims to answer is:
+
+**What are the benefits of using the Standard Commit_ format over existing commit message formats?**
+
+In the following table, we summarize the main advantages of the _Standard Commit_ format compared to other commit message formats:
+| Feature/Aspect                       | _Standard Commit_ Format | Conventional Commits | Tim Pope Style   | Gitmoji Commits  |
+|--------------------------------------|--------------------------|----------------------|------------------|------------------|
+| Grammar-based                        | Yes                      | Partially            | No               | No               |
+| Structured Format                    | High                     | Medium               | Low              | Low              |
+| Verbosity                            | Low                      | Medium               | High             | Medium           |
+| Readability                          | Medium                   | Medium               | High             | Medium           |
+| Consistency                          | High                     | Medium               | Low              | Medium           |
+| Grepability                          | High                     | Medium               | Low              | Low              |
+| $\frac{Conciseness}{Expressiveness}$ | High                     | Medium               | Low              | Medium           |
+| Scope Annotation                     |
+| Reason Annotation                    |
+| Scope Annotation                     |
+| Importance Levels                    |
+| Explanatory Body and Footer          |
+| Support for Multiple Verbs           |
+| Support for Undoing Changes          |
+| Support for Breaking Changes         |
+| Support for Critical Changes         |
+| Support for Non-Breaking Changes     |
+| Support for Non-API Changes          |
+| Support for API Changes              |
+
+
+
+
 ## Layout
 
 The _Standard Commit_ format, as universally recognized, is composed of two distinct fragments: the _structured_ (or formal) component and the _unstructured_ (or expository) component. The former adheres to a prescribed format, ensuring clarity and consistency in commit messages. It is formally expressed as: `<verb><importance>(<scope>)[<reason>]`. The latter expands upon the structured prefix, providing deeper insight into the modification. It is consists of three elements: `<summary>`, `<body>`, and `<footer>`.
